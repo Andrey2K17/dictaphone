@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/Users/PG13/AppData/Local/Android/Sdk/platforms/android-31/data/res/drawable/list_selector_background.xml" value="0.1945" />
         <entry key="..\:/repositories/home-repository/dictaphone/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/repositories/home-repository/dictaphone/app/src/main/res/layout/fragment_list_of_records.xml" value="0.17074275362318841" />
+        <entry key="..\:/repositories/home-repository/dictaphone/app/src/main/res/layout/fragment_other.xml" value="0.17074275362318841" />
+        <entry key="..\:/repositories/home-repository/dictaphone/app/src/main/res/layout/fragment_record.xml" value="0.17074275362318841" />
         <entry key="..\:/repositories/home-repository/dictaphone/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
