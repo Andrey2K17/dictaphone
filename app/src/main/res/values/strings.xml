@@ -3,4 +3,6 @@
     <string name="rec_menu">Запись</string>
     <string name="other_menu">Прочее</string>
     <string name="list_of_rec_menu">Записи</string>
+    <string name="name_of_record">Название</string>
+    <string name="record_duration">Продолжительность</string>
 </resources>
