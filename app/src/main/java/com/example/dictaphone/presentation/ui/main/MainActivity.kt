@@ -17,3 +17,4 @@ class MainActivity : AppCompatActivity() {
             (supportFragmentManager.findFragmentById(R.id.nav_host_container) as NavHostFragment).navController
         NavigationUI.setupWithNavController(bottomNavigationView, navController)
     }
+}
