@@ -1,8 +1,6 @@
 package com.example.dictaphone.presentation.ui.record
 
+import androidx.fragment.app.Fragment
 import com.example.dictaphone.R
-import com.example.dictaphone.presentation.ui.base.BaseFragment
 
-class RecordFragment : BaseFragment() {
-    override val layoutRes = R.layout.fragment_record
-}
+class RecordFragment : Fragment(R.layout.fragment_record)

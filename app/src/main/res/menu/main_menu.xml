@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_rec_item"
+        android:id="@+id/recordFragment"
         android:icon="@android:drawable/ic_menu_add"
         android:title="@string/rec_menu"
         app:showAsAction="ifRoom|withText" />
     <item
-        android:id="@+id/list_of_rec_item"
+        android:id="@+id/listOfRecordsFragment"
         android:icon="@android:drawable/ic_menu_view"
         android:title="@string/list_of_rec_menu"
         app:showAsAction="ifRoom|withText" />
     <item
-        android:id="@+id/other_item"
+        android:id="@+id/otherFragment"
         android:icon="@android:drawable/ic_menu_today"
         android:title="@string/other_menu"
         app:showAsAction="ifRoom|withText" />
