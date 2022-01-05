@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/recordFragment">
+
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="com.example.dictaphone.presentation.ui.record.RecordFragment"
+        android:label="fragment_record"
+        tools:layout="@layout/fragment_record" />
+    <fragment
+        android:id="@+id/listOfRecordsFragment"
+        android:name="com.example.dictaphone.presentation.ui.listOfRecords.ListOfRecordsFragment"
+        android:label="fragment_list_of_records"
+        tools:layout="@layout/fragment_list_of_records" />
+    <fragment
+        android:id="@+id/otherFragment"
+        android:name="com.example.dictaphone.presentation.ui.other.OtherFragment"
+        android:label="fragment_other"
+        tools:layout="@layout/fragment_other" />
+
+</navigation>
