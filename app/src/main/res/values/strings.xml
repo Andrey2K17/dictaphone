@@ -5,4 +5,11 @@
     <string name="list_of_rec_menu">Записи</string>
     <string name="name_of_record">Название</string>
     <string name="record_duration">Продолжительность</string>
+    <string name="record">Запись</string>
+    <string name="stop">Стоп</string>
+    <string name="play">Слушать</string>
+    <string name="timer">00:00.0</string>
+    <string name="save_record">Сохранить запись?</string>
+    <string name="exit">Выход</string>
+    <string name="ok">ОК</string>
 </resources>
