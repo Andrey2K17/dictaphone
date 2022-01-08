@@ -3,24 +3,50 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="8dp"
-    app:cardElevation="4dp"
     android:layout_margin="4dp"
-    >
+    android:padding="8dp"
+    app:cardElevation="4dp">
 
-    <TextView
-        android:id="@+id/tvRecordName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/name_of_record"
+    <ImageButton
+        android:id="@+id/ibPlay"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/ic_circle"
+        android:clickable="false"
+        android:src="@drawable/ic_play"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvRecordDuration"
+        android:id="@+id/tvFileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_of_record"
+        android:textSize="8sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/ibPlay"
+        app:layout_constraintStart_toEndOf="@id/ibPlay"
+        app:layout_constraintEnd_toStartOf="@id/tvMeta"
+        app:layout_constraintTop_toTopOf="@id/ibPlay" />
+
+    <TextView
+        android:id="@+id/tvMeta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/record_duration"
+        app:layout_constraintBottom_toBottomOf="@id/ibPlay"
+        app:layout_constraintEnd_toStartOf="@id/cbRecord"
+        app:layout_constraintTop_toTopOf="@id/ibPlay" />
+
+    <CheckBox
+        android:id="@+id/cbRecord"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:clickable="false"
+        android:visibility="gone"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/ibPlay"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@id/ibPlay"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

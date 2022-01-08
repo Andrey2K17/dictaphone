@@ -62,7 +62,6 @@ class RecordFragment : Fragment(R.layout.fragment_record), Timer.OnTimerTickList
         }
 
         db = App.database
-        fetchRecords()
 
         bottomSheetBehavior = BottomSheetBehavior.from(bottomSheet)
         bottomSheetBehavior.peekHeight = 0
@@ -181,13 +180,6 @@ class RecordFragment : Fragment(R.layout.fragment_record), Timer.OnTimerTickList
         isPaused = false
         btnRecord.setImageResource(R.drawable.ic_pause)
         timer.start()
-    }
-
-    private fun fetchRecords() {
-        GlobalScope.launch {
-            var queryResult = db.audioRecordDao().getAll()
-            Log.d("Rec123", queryResult.toString())
-        }
     }
 
     override fun onRequestPermissionsResult(
